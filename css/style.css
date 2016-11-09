@@ -1,0 +1,261 @@
+/* index */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 5px black;
+}
+body {
+	background-color: #fbfbfb;
+}
+a.navlinks:link, a.navlinks:visited {
+ 	text-decoration: none; /* this is how to remove the underline*/
+ 	color: black;
+  	display: block;
+	padding-top: 25px;
+ 	padding-bottom: 15px;
+ 	text-align: center;
+}
+a.navlinks:hover, a.navlinks:active {
+  	color: blue;
+ }
+ul {
+  	width: 100%;
+}
+header li {
+  	list-style: none; /*this is nhow we remove the bullet points*/
+ 	display: inline-block;
+ 	float: right;
+ 	width: 15%;
+ 	margin-top: 75px;
+ 	font-family: 'News Cycle', sans-serif;
+    color: #ffffff;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 1.5em;
+}
+h1 { 
+   position: absolute; 
+   top: 45%; 
+   left: 40%; 
+   width: 50%; 
+   font-family: 'News Cycle', sans-serif;
+   color: black;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 2em;
+   text-align: center;
+   background: rgba(255, 255, 255, 0.75);
+   padding: 3%;
+}
+h2{
+  font-family: 'News Cycle', sans-serif;
+    color: #666666;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5em;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-style: none;
+}
+h3 {
+  font-family: 'News Cycle', sans-serif;
+    color: #ffffff;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 1.5em;
+    text-align: left;
+    font-style: none;
+    text-decoration: none;
+    padding: 10px;
+    margin-left: 25px;
+    clear: both;
+}
+.fontstyleheader {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: #666666;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 100%;
+    text-align: right;
+    font-style: none;
+ }
+.fontstylecontent {
+    font-family: 'News Cycle', sans-serif;
+    color: #666666;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 90%;
+    text-align: left;
+    font-style: none;
+ }
+.fontstyle{
+    font-family: 'News Cycle', sans-serif;
+    color: #666666;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80%;
+    text-align: center;
+    font-style: none;
+}
+.fontfooter {
+    font-family: 'News Cycle', sans-serif;
+    color: #ffffff;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.8em;
+    text-align: left;
+    font-style: none;
+    clear: both;
+ }
+.articleheader{
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: #666666;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 200%;
+    font-style: none;
+    padding-top: 35px;
+    margin-left: 15%;
+}
+.articleimage{
+	width: 75%;
+	margin-left: 10%;
+}
+.articletext{
+	font-family: 'News Cycle', sans-serif;
+    color: #666666;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 100%;
+    text-align: left;
+    font-style: none;
+    padding: 25px;
+    margin-left: 5%;
+    width: 90%;
+    clear: both;
+}
+.boxlink {
+	width: 30%;
+	float: left;
+  margin: 1.5%;
+  height: 30%;
+	border: solid 1px black;
+}
+.boxtext {
+  padding: 2.5%;
+}
+.readlink {
+  background: #FFFFFF;
+  padding: 4%;
+  text-decoration: none;
+  float: right;
+}
+.footericon{
+	width: 33.33%;
+	position: relative;
+	left: 30%;
+	padding-top: 10px;
+}
+.footerhead{
+  width: 33.33%;
+  position: relative;
+  left: 25%;
+  padding-top: 10px;
+}
+.footerboxlink {
+	width: 30%;
+	float: left;
+	margin-left: 20px;
+	padding-top: 20px;
+}
+.footertext{
+	padding: 25px;
+}
+.footerlink{
+	text-decoration: none;
+}
+.teamname{
+	float: center;
+	padding: 15px;
+	margin-bottom: 25px;
+	position: relative;
+	left:40%;
+}
+#headerlogo {
+  float: left;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  margin-left: 15px;
+}
+#box1 {
+	height: 200px;
+	width: 20%;
+	float: left;
+}
+#box2 {
+	height: 200px;
+	width: 20%;
+	float: left;
+}
+#box3 {
+	height: 200px;
+	width: 20%;
+	float: left;
+}
+#box4 {
+	height: 200px;
+	width: 20%;
+	float: left;
+}
+#box5 {
+	height: 200px;
+	width: 20%;
+	float: left;
+}
+
+#footer {
+	float: left;
+	width: 100%;
+	background-color: #1d6ab2;
+}
+.nextbutton{
+  position: absolute;
+  left: 75%;
+  /*top: 100%;*/
+  padding: 2.5%;
+  background-color: rgba(29, 106, 178, 0.75);
+  font-family: 'News Cycle', sans-serif;
+  color: #FFFFFF;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 80%;
+  text-align: center;
+  font-style: none;
+
+}
+#memberimage {
+	clear: both;
+	width: 40%;
+	text-align: center;
+	float: left;
+	padding-top: 25px;
+  padding-bottom: 10px;
+}
+#memberinfo {
+	width: 60%;
+	float: right;
+	padding-top: 75px;
+	padding-right: 25px;
+
+}
+#memberquote {
+	width: 60%;
+	
+	text-align: left;
+	float: right;
+	padding-top: 75px;
+	padding-right: 50px;
+}
