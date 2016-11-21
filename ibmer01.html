@@ -5,6 +5,30 @@
 	<meta charset="utf-8" lang="eng">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="shortcut icon" href="./favicon.ico">
+	<script>
+		function changeText(){
+			document.getElementById('changePara').innerHTML= 'I would describe myself as areally emotional and introvent person who studys interactive media but always wanted to be an author. Here is some fun things that I usually do: I do Diary writing regulary,I enjoy Reading book and poetry in my spare time,Baking and Cooking also changes my mood and makes me happy.'
+			document.getElementById('changePara').style.color="purple"
+				
+		}
+	</script>
+	<style>
+	.changeButton{
+		position: absolute;
+		  left: 75%;
+		  padding: 2.5%;
+		  background-color: rgba(29, 106, 178, 0.75);
+		  font-family: 'News Cycle', sans-serif;
+		  color: #FFFFFF;
+		  text-decoration: none;
+		  font-style: normal;
+		  font-weight: normal;
+		  font-size: 80%;
+		  text-align: center;
+		  font-style: none;
+	}
+
+	</style>
 </head>
 <body>
 	<header><!--open header-->
@@ -29,10 +53,13 @@
 					<h2>Interactive Design</h2>
 					<br>
 					<br>
-				<p class="boxtext">
+				<p class="boxtext" id="changePara">
 					My software development background is a compliment for design and interactive skills.
 					<br>
-					 This experience helps me understand the difficulties of executing certain designs, related with technological obstacles in implementing interfaces and overall is very helpful in working with development teams in IBM.
+					 This experience helps me understand the difficulties of executing certain designs, related with technological obstacles in implementing interfaces and overall is very helpful in working with development teams in IBM.<br><br>
+
+					 <button onclick="changeText()" class="changeButton">See the other side of me!</button>
+
 		</div><!--close member info div-->
 		<div id="memberquote"><!--open quote div-->
 				<h2 class="quote">"Design is Thinking Made Visual."<h2>
