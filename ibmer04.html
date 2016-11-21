@@ -4,7 +4,38 @@
 	<title>IBM Team | Melissa</title>
 	<meta charset="utf-8" lang="eng">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="shortcut icon" href="./favicon.ico">
+	<script>
+		function changeText(){
+			uglyText.style.color = "#FFCC00";
+			uglyText.style.fontSize = "10px";
+			uglyText.style.fontFamily = "Times New Roman";
+			memberinfo.style.background = "#FF66CC";
+			memberquote.style.background = "#FF66CC";
+			memberquote.style.border = "4px solid yellow";
+			quoteheader.style.color = "#FF9900";
+			uglyheader1.style.color = "#FFCC00";
+			uglyheader1.style.fontFamily = "Times New Roman";
+			uglyheader2.style.color = "#FF9900";
+			uglyheader2.style.fontSize = "40px";
+
+		}
+	</script>
+	<style>
+		.uglytextbutton {
+			position: absolute;
+  			padding: 1.25%;
+  			background-color: rgba(29, 106, 178, 0.75);
+  			font-family: 'News Cycle', sans-serif;
+  			color: #FFFFFF;
+  			text-decoration: none;
+ 		 	font-style: normal;
+  			font-weight: normal;
+  			font-size: 80%;
+  			text-align: center;
+  			font-style: none;
+  			margin-top: 1%;
+		}
+	</style>
 </head>
 <body>
 	<header><!--open header-->
@@ -24,21 +55,25 @@
 				<img src="./img/ibmer4.jpg" width="75%" alt="Melissa Frew" align="center">
 		</div><!--close member image div-->
 		<div id="memberinfo"><!--open member info div-->
-					<h2>Melissa</h2> 
+					<h2 id="uglyheader1">Melissa</h2> 
 					<br>
-					<h2>UX Design</h2>
+					<h2 id="uglyheader2">UX Design</h2>
 					<br>
-					<br>
-					<p class="fontstylecontent">
+					<p class="fontstylecontent" id="uglyText">
 					With a background in the fine arts and graphic design, Melissa will make your data beautiful. 
 					<br>
 					 Content, style and flow.  
 					<br>
 					 Clear, clean and concise design to ensure your digital content will be understood, remmebered and referenced.
-				</p>
+					 <br>
+					 Have you ever wondered why good design matters?  Click on the button below and see what you think!
+					</p>
+				<div>
+					<button class="uglytextbutton" onclick="changeText()">have some fun!</button>
+				</div>
 		</div><!--close member info div-->
 		<div id="memberquote"><!--open quote div-->
-				<h2 class="quote">"Make it simple, but significant."<h2>
+				<h2 id="quoteheader" class="quote">"Make it simple, but significant."<h2>
 		</div><!--close quote div-->
 		<div>
 			<a class="nextbutton" href="ibmer05.html">next member</a>    
