@@ -1,0 +1,98 @@
+/*This is my about page css file, Melissa Frew Student #300921033, IMMT-715*/
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: none;
+}/*lcearing browser formatting*/
+
+#logo{
+	padding: 0px;
+	max-width: 40%;
+}/*styling logo placement and size*/
+
+#photo{
+	float: left;
+	max-width: 40%;
+	padding: 25px 0px 25px 25px;
+}/*photo left side wiht padding and size restriction*/
+
+#copy{
+	float: right;
+	max-width: 55%;
+	padding-right: 25px;
+	margin-right: 25px;
+}/*copy right side with padding and margin for space and size restriction*/
+
+.nav{
+	list-style-type: none;
+	float: right;
+	display: inline-block;
+	font-family: Oxygen, sans-serif;
+	color: #6d6e71;
+	font-size: 150%; 
+	font-weight: 300;
+}/* formatting nav to be horizontal with specifiec font and no background, want to make backgorund appear on hover*/
+
+.smedia{
+	float: right;
+	padding-right: 25px;
+}/*formatting social media links, right-side with some padding*/
+
+p{
+	font-family: arial, helvetica, sans-serif;
+	color: #6D6D6D;
+	font-weight: 300;
+	padding: 25px;
+}/* parragraph font and padding style*/
+
+li{
+	float: left;
+}/*nav on the left*/
+
+ul a{
+	text-decoration: none;
+	display: inline-block;
+	padding: 25px;
+	margin-top: 25px;
+}/*styling hte list links*/
+
+
+h1{
+	font-family: Oxygen, sans-serif;
+	color: #C1C1C1;
+	font-size: 200%;
+	font-weight: 300;
+	padding: 0px;
+}/*heading 1 format*/
+
+h2{
+	color: #6d6e71;
+}/*heading 2 format*/
+
+h3{
+	font-family: arial, helvetica, sans-serif;
+	font-weight: 100px;
+	color:#ffffff;
+	text-align: center;
+	align: center;
+	padding: 10px;
+}/*heading 3 format*/
+
+footer{
+	float: left;
+	width: 100%;
+	background-color: black;
+	color: #ffffff;
+	height: 100px;
+}/*footer background, font colour etc.*/
+
+span{
+	color: #6D6D6D;
+}/*span changes colour of text in header 1*/
+
+
+
+
+
+
