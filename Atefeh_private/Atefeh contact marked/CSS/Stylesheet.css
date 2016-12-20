@@ -1,0 +1,85 @@
+	
+
+	body {
+			font-family: gorgian, serif; 
+			color: black;
+			 font-size: 20px;
+			  background-color:white;
+			 } 
+	h1 {color: #371e54;
+			font-size: 40px;
+			background-color: white;
+			font-family: gorgian, serif;
+			text-align: center;
+			}
+
+	h2{
+			font-family: gorgian, serif;
+			font-size: 20px;
+			text-align: center;
+			color: #371e54;
+
+			}
+
+	p{
+			text-align: center;
+			font-family: gorgian;
+			font-size: 25px;
+			color: #371e54;
+			float: left;
+			margin: 0;
+		    padding: 10px;
+		    clear: right;
+					   
+			}
+
+	span{
+			font-size: 20px;
+			color: red;
+			font-style: bold;
+			}
+
+	a{ 		float: left;
+			margin-right: 5px;
+			}
+
+	label{
+			font-size: 15px;
+			font-family: gorgian, serif;
+			}
+
+	input{
+			width: 40%;
+			}
+
+	img{
+		height: 30px;
+	}			
+		
+
+	#Formbox {
+  			float: center;
+  			border: 2px;
+  			padding-left: 5em;
+  			padding-right: 5em;
+  			width:500px; 
+  			margin:0 auto;
+  			background-color: white;
+			}
+
+	.externalLinks{
+			list-style-type: none;
+		    margin: 0;
+		    padding: 10px;
+		    width: 100px;
+		    float:right;
+
+			}
+
+	.form {
+			text-align: center;
+			}
+
+
+
+	

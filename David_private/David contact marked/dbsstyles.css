@@ -1,0 +1,155 @@
+/*
+CSS CODE FOR DBSTEELEMEDIA
+Created by David Steele
+Last Modified: November 9th, 2016;*/
+
+body {margin: 0;}
+
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    padding-bottom: 0px;
+ 
+}
+.linebreak{
+  color: grey;
+  padding:0px;
+  margin-top: 0px;
+}
+
+.submissionform {
+    padding-left:300px;
+
+}
+.table{
+  padding-left: 10px;
+}
+/*#menu {
+    float: right; /*makes the menu float right, but keeps the text aligned to the left
+}
+*/
+
+
+
+ul.topnav li { 
+    float: left;
+ }
+
+ul.topnav li a {
+    font-family: arial, sans-serif; /*Defines the font for text in the menu bar*/
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #000000; /*this tells the navigation box to
+	turn black when hovered over*/
+color: #ffffff; /*This command makes the text go white when the block is being hovered over*/
+}
+
+ul.topnav li a.active {background-color: #4CAF50;}
+
+ul.topnav li.left {
+    float: left;
+}
+.logo
+
+.centre{
+    position: absolute;
+    right: 50px;
+    border: none;
+    padding: 1px;
+}
+.body
+img {
+    padding: 40px;
+    padding-bottom: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+
+    float: left; /*Aligns the image to the left*/
+}
+h1{
+    text-align: left;
+    padding:10px;
+    border-left: 0px;
+    border-width: 10px;
+    font-family: arial, sans-serif;
+}
+h2{
+     font-family: arial, sans-serif; 
+    padding: 10px;
+     padding-bottom: 0px;
+     margin-bottom: 0px; /*removes spacing between elements in the page*/
+
+}
+h3{
+     font-family: arial, sans-serif;
+     font-style: italic;
+     padding:10px;
+     padding-bottom: 0px;
+     margin-bottom: 0px;
+}
+p{
+    font-family: arial, sans-serif;/*Defines the font for text in paragraph elements*/
+text-align: left;
+padding: 10px;
+padding-top: 0px;
+padding-bottom: 0px;
+margin-bottom: 0px;
+
+}
+footer{
+    display: block;
+    font-family: arial, sans-serif;
+font-size: 10px;
+text-align: right;
+padding: 10px;
+}
+#p2{
+
+}
+/*this code tells the website that if the screen width is 600px or less,
+to condense the menu to be more responsive for mobile devices*/
+@media screen and (max-width: 684px){
+    ul.topnav li.left,
+    ul.topnav li {float: none;}
+    
+    img.logo {margin: auto;
+        width: 100%; /*makes the logo responsive*/
+
+    }
+
+    img.body{
+        margin: auto;
+        width: 30%;
+    }
+
+    p.body {/*tells the website to compress the text to fit the size of the screen*/
+       text-align: center; 
+
+   } 
+footer{
+   
+    text-align: center;
+}
+img.centre{
+    
+    padding: 0px;
+    padding-bottom: 20px;
+
+}
+}
+/* New Media Queries: Large Devices
+
+@media (min-width: 1000px)
+
+*/
+
+/* New Media Queries: Medium Devices*/

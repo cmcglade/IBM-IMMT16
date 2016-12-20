@@ -1,0 +1,113 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf8">
+<title>About Me</title>
+<style>
+
+div {
+        border:3px; color: solid black;
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-top: 200px;
+        margin-bottom: 200px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #28be74;
+    color: white;
+    }
+
+.styled	{
+		font-family:	Arial,	Helvetica,	
+			sans-serif;
+		color:	#0000ff;			
+		font-size:	24px;
+}
+
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
+h1{
+	color: #28be74;
+
+	text-align: center;
+	font-family: cursive, Helvetica,
+	sans-serif;
+	color: :#676767;
+	font-size: 40px;
+	margin-bottom: 50px;
+}
+
+h2 {
+	color: solid black;
+	text-align: left;
+	font-family: Arial, Helvetica,
+	sans-serif;
+	color: :#676767;
+	font-size: 25px;
+	margin-bottom: 10px;
+}
+
+
+
+</style>
+</head>
+<body>
+
+<h1> Vithurren Sivaloganathan <img src="AAEAAQAAAAAAAAVBAAAAJDZkMTMxOWRjLTBmM2ItNDcxOC1iOWRjLWE3MzdhOWFlZjU5OQ.jpg" alt= "its a me" width="100" height="150" align="left" margin="100px"> </h1>
+
+
+<br>
+<br>
+
+<ul>
+  <li><a href="home.html">Home</a></li>
+  <li><a href="#background.html" >Background</a></li>
+  <li><a href= "social.html" >Social Media</a></li>
+  <li><a href="about.html">About</a></li>
+</ul>
+
+<h2> <span style="align:center;">
+About
+</span>
+</h2>
+
+<br>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum 
+</p>
+</body>
+</html>
+
+
+</body>
+</html>

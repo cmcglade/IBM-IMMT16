@@ -1,0 +1,212 @@
+/*This is my css file, Melissa Frew Student #300921033, IMMT-715*/
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: none;
+}/*lcearing browser formatting*/
+.allcontent{
+	padding-top: 275px;
+}
+#logo{
+	padding-left: 25px;
+	padding-top: 15px;
+	max-width: 25%;
+}/*styling logo placement and size*/
+.navbar{
+	position: fixed;
+	right: 0px;
+	left: 0px;
+	z-index: 999;
+	background-color: #ffffff;
+}
+.line{
+	color: #024759;
+}
+#photo{
+	float: left;
+	max-width: 40%;
+	padding: 25px 0px 25px 25px;
+}/*photo left side wiht padding and size restriction*/
+#copy{
+	float: right;
+	max-width: 55%;
+	padding-right: 25px;
+	margin-right: 25px;
+}/*copy right side with padding and margin for space and size restriction*/
+.nav{
+	list-style-type: none;
+	float: right;
+	display: inline-block;
+	font-family: Oxygen, sans-serif;
+	font-size: 150%; 
+	font-weight: 300;
+}/* formatting nav to be horizontal with specifiec font and no background, want to make backgorund appear on hover*/
+a.navlinks:link, a.navlinks:visited {
+ 	text-decoration: none; /* this is how to remove the underline*/
+ 	color: #6d6e71;
+  	display: block;
+	padding-top: 100px;
+ 	text-align: center;
+}
+a.navlinks:hover, a.navlinks:active {
+  	color: #024759;
+  	font-weight: normal;
+}
+.smedia{
+	float: right;
+	padding-right: 25px;
+	max-height: 75px;
+}/*formatting social media links, right-side with some padding*/
+/*.smedlink{
+	max-height: 5%;
+	
+}*/
+.contactForm{
+	font-family: arial, helvetica, sans-serif;
+	font-weight: 100px;
+	color: #024759;
+	max-width: 50%;
+	margin-left: 25%;
+	margin-bottom: 40px;
+}
+.formlabel{
+	display: inline-block;
+	padding: 10px;
+	text-align: left;
+}
+.radiolabel{
+	display: inline-block;
+	padding: 25px;
+	text-align: left;
+}
+.submitbutton{
+	font-family: arial, helvetica, sans-serif;
+	font-weight: 100px;
+	font-size: 18px;
+	color: #024759;
+	padding:10px; 
+	background-color: #ffffff;
+    border: 1px solid #024759;
+    border-radius: 10px;
+    margin-left: 50px;
+}
+.submitbutton:hover, .submitbutton:active {
+	background-color: #E2E2E2;
+	border: 1px solid #ffffff;
+}
+.boxstyle{
+	padding: 15px;
+	margin-top: 25px;
+    border: 1px solid #C1C1C1;
+    border-radius: 25px;	
+    /*margin-top: 25px;*/
+}
+.lgndtitle{
+	font-family: arial, helvetica, sans-serif;
+	font-weight: 100px;
+	color: #024759;
+	font-size: 18px;
+	margin-top: 40px;
+	padding-left: 10px;
+	padding-right: 10px;
+	/*margin-right: 5px;*/
+}
+.formtext{
+	padding:5px; 
+    border: 1px solid #C1C1C1;
+    border-radius: 25px;
+}
+.formtitle{
+	padding-bottom: 25px;
+	padding-left: 25px;
+}
+.responsetext{
+	font-family: arial, helvetica, sans-serif;
+	font-weight: 100px;
+	font-size: 12px;
+	color: #024759;
+	padding-top: 50px;
+	margin-left: 25%;
+	max-width: 50%;
+	padding-bottom: 150px;
+}/*format of echo text*/
+.reqdfield{
+	color: #00ccff;
+}
+.mainpara{
+	font-family: arial, helvetica, sans-serif;
+	color: #6D6D6D;
+	font-weight: 300;
+	padding: 25px;
+}
+p{
+	font-family: arial, helvetica, sans-serif;
+	color: #6D6D6D;
+	font-weight: 300;
+	padding: 25px;
+}/* paragraph font and padding style*/
+li{
+	float: left;
+}/*nav on the left*/
+ul a{
+	text-decoration: none;
+	display: inline-block;
+	padding: 25px;
+	margin-top: 25px;
+}/*styling the list links*/
+h1{
+	font-family: Oxygen, sans-serif;
+	color: #C1C1C1;
+	font-size: 200%;
+	font-weight: 300;
+	padding: 0px;
+}/*heading 1 format*/
+h2{
+	color: #024759;
+}/*heading 2 format*/
+h3{
+	font-family: arial, helvetica, sans-serif;
+	font-weight: 100px;
+	color:#ffffff;
+	text-align: center;
+	padding: 10px;
+}/*heading 3 format*/
+footer{
+	float: left;
+	width: 100%;
+	background-color: black;
+	color: #ffffff;
+	height: 100px;
+}/*footer background, font colour etc.*/
+span{
+	color: #6D6D6D;
+}/*span changes colour of text in header 1*/
+input[type=text] {
+    padding: 5px; 
+    border: 1px solid #C1C1C1;
+    border-radius: 10px;
+    font-family: arial, helvetica, sans-serif;
+	color: #6D6D6D;
+	font-weight: 300;
+}
+input[type=password] {
+    padding: 5px; 
+    border: 1px solid #C1C1C1;
+    border-radius: 10px;
+}
+input[type=radio] {
+    padding: 5px; 
+    border: 1px solid #C1C1C1;
+}
+input[type=date] {
+    padding: 5px; 
+    border: 1px solid #C1C1C1;
+    border-radius: 10px;
+    font-family: arial, helvetica, sans-serif;
+	color: #6D6D6D;
+	font-weight: 300;
+}
+
+
+
