@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <title>Contact Form</title>
     <link rel="stylesheet" href="mystyle1.css"/>
-</head>
+</head><!--you have lost marks because styling is a bit off: your photo is all stretched but also becuase
+you have not created the code that generates a response for the form submission or, if you have, you have not included
+the file that code is in.  also never use an image with a filename as you have below, giveyour images descriptive readable names-->
 <body>
 
 <h1> Vithurren Sivaloganathan <img src="AAEAAQAAAAAAAAVBAAAAJDZkMTMxOWRjLTBmM2ItNDcxOC1iOWRjLWE3MzdhOWFlZjU5OQ.jpg" alt= "its a me" width="100" height="150" align="left" margin="100px"> </h1>
@@ -25,7 +27,7 @@
 
 
 
-        <form action="contact.php" method="post">
+        <form action="contact.php" method="post"><!--you have not included this file, contact.php, with the assignment-->
                     <label>First Name: </label><br />
                     <input class="input" type="text" name="firstname" placeholder="First name" pattern:"" required/><br />
 
