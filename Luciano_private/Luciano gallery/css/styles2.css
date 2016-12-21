@@ -1,0 +1,150 @@
+html, body {
+	background: #ffffff;
+	padding: 0;
+	margin: 0;
+	font-family: Helvetica, sans-serif;
+	height: 100%;
+}
+
+article {
+	display: table;
+	position: relative;
+	width: 80%;
+	height: 100%;
+	margin: 0 auto 0 auto;
+	background: #696969;
+	padding: 0;
+}
+
+article div {
+	display: table-caption;
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 2;
+	width: 75%;
+	text-align: right;
+	margin-left: 27%;
+	background: rgba(0, 0, 0, 0.75);
+	color: #fff;
+}
+
+figure {
+	display: table-cell;
+	position: relative;
+	width: 75%;
+	margin-left: 25%;
+	z-index: 1;
+	overflow: auto;
+}
+
+figure img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	transition: opacity 1s;
+	width: 100%;
+	z-index: 1;
+}
+
+figure img.hidden {
+	opacity: 0;
+}
+
+nav {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background: #777;
+	padding: 0;
+}
+
+nav img {
+	display: inline-block;
+	width: 100%;
+}
+
+.bgimage {
+	background-image: url('../img/header.jpg');
+	background-position: top center;
+	background-size: cover;
+	height: 271px;
+}
+
+.jumbotron {
+	background-color: #101010;
+}
+
+.btn-info {
+	color: white;
+	background-color: #79BFE9;
+	border-color: #215D90;
+}
+
+.btn-info:hover {
+	background-color: #ADD144;
+}
+
+/* The Modal (background) ------ text box */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+h1 {
+	font-family: "Lato" , sans-serif;
+	color: #5b5b5b;
+	font-weight: 900;
+	font-size: 120%; 
+	text-align: center;
+}
+
+.imageTitle {
+	font-family: "Lato" , sans-serif;
+	color: #5b5b5b;
+	font-weight: 900;
+	font-size: 110%; 
+	text-align: center;	
+}
+
+.description {
+	font-family: "Lato" , sans-serif;
+	color: #5b5b5b;
+	font-weight: 800;
+	font-size: 90%; 
+	text-align: center;
+}

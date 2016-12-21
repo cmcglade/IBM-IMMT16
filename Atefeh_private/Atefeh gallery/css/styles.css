@@ -1,0 +1,51 @@
+
+
+body{
+
+	background-color: #e7e7e7;
+}
+
+.imgheader{
+	
+	background-image: url('../img/LittleItaly_fall.jpg');
+	background-position: center center;
+	background-size: 1000px;
+	height: 400px;
+	background-repeat: no-repeat;
+	margin-bottom: 10px;
+}
+
+h1{
+	font-family: Georgia;
+	text-align: center;
+	font-size: 10px;
+	padding-left: 10px;
+}
+
+p{
+	background-color: #e7e7e7;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+.jumbotron{
+	background-color:#ffffff;
+	height: 200px;
+	
+}
+
+img {
+  filter: gray; 
+  -webkit-filter: sepia(1); 
+    -webkit-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+    margin-bottom:20px;
+    margin-top: 10px;
+}
+
+img:hover {
+  filter: none; 
+  -webkit-filter: sepia(0); 
+ 
+} /*nice use of filter and removal on hover*/

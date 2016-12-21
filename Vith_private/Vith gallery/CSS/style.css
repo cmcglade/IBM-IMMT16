@@ -1,0 +1,151 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf8">
+<title>Gallery</title>
+<style>
+
+div {
+        border:3px; color: solid black;
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-top: 200px;
+        margin-bottom: 200px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #28be74;
+    color: white;
+    }
+
+.styled	{
+		font-family:	Arial,	Helvetica,	
+			sans-serif;
+		color:	#0000ff;			
+		font-size:	24px;
+}
+
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
+h1{
+	color: #28be74;
+
+	text-align: center;
+	font-family: cursive, Helvetica,
+	sans-serif;
+	color: :#676767;
+	font-size: 40px;
+	margin-bottom: 50px;
+}
+
+h2 {
+	color: solid black;
+	text-align: left;
+	font-family: Arial, Helvetica,
+	sans-serif;
+	color: :#676767;
+	font-size: 25px;
+	margin-bottom: 10px;
+}
+
+/* Vith why do you have html is your css file?*/
+
+</style>
+</head>
+<body>
+
+<h1> Vithurren Sivaloganathan <img src="AAEAAQAAAAAAAAVBAAAAJDZkMTMxOWRjLTBmM2ItNDcxOC1iOWRjLWE3MzdhOWFlZjU5OQ.jpg" alt= "its a me" width="100" height="150" align="left" margin="100px"> </h1>
+
+
+<br>
+<br>
+
+<ul>
+  <li><a href="home.html">Home</a></li>
+  <li><a href="#background.html" >Background</a></li>
+  <li><a href= "social.html" >Social Media</a></li>
+  <li><a href="about.html">About</a></li>
+</ul>
+
+<h2> <span style="align:center;">
+About
+</span>
+</h2>
+
+.gallery-photos {
+	padding: 20px;
+}
+.gallery-photos .big-photo {
+	display: block;
+	background-color: #ffffff;
+	padding: 10px;
+	border: 10px solid #e7e7e7;
+	margin-right: 210px;
+}
+.gallery-photos .big-photo img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+	margin: 0 auto;
+}
+.gallery-photos .photo-thumbnails {
+	float: right;
+	width: 210px;
+}
+.gallery-photos .photo-thumbnails .thumbnail {
+	float: left;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	width: 30%;
+	height: 63px;
+	cursor: pointer;
+	padding: 3px;
+	border: 1px solid #e7e7e7;
+	margin-left: 3.33333%;
+	margin-bottom: 6px;
+	opacity: 0.4;
+}
+.gallery-photos .photo-thumbnails .thumbnail.current {
+	opacity: 1;
+	background-color: #ffffff;
+}
+.gallery-photos .photo-thumbnails .thumbnail .thumbnail-inner {
+	height: 100%;
+	overflow: hidden;
+}
+.gallery-photos .photo-thumbnails .thumbnail img {
+	display: block;
+	width: auto;
+	max-height: 100%;
+	margin: 0 auto;
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head><!--great work, great photos-->
+	<meta charset="utf-8">
+	<title>Image Gallery - Luciano Stabel</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script type="text/javascript" src="js/highslide.js"></script> <!-- Loading the script to make the images larger. It works like Bootstrap, inside the JS folder there's another folder called Graphics, which has the images that compose the presets -->
+	<script type="text/javascript"> hs.graphicsDir = 'js/graphics/'; hs.outlineType = 'rounded-white'; </script> <!--Override Highslide settings, instead of editing highslide.js-->
+	<script src="js/script.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> <!--Google fonts-->
+
+	<style type="text/css">
+		@import url("css/highslide.css");
+		@import url("css/bootstrap.css");
+		@import url("css/styles2.css");
+	</style>
+
+</head>
+	<body>
+	<header class="bgimage"> 
+		<div class="container">
+		</div>
+	</header>
+	<h1>Click On The Images To See Them Larger</h1>
+	<section class="container">
+		<div class="row">
+			
+			<div class="col-xs-12 col-sm-4 col-lg-3">
+				<div class="thumbnail"><a id="thumb1" href="img/img1.jpg" class="highslide" onclick="return hs.expand(this)"><img src="img/img1.jpg" alt="Centennial Planet" title="Click to enlarge" height="300" width="300" /></a> <!--onclick calling Highslide script-->
+					<div class="caption">
+						<p class="imageTitle">Centennial Planet</p>
+						<p class="description">Perfect planet for students!</p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-xs-12 col-sm-4 col-lg-3">
+				<div class="thumbnail"><a id="thumb1" href="img/img2.jpg" class="highslide" onclick="return hs.expand(this)"><img src="img/img2.jpg" alt="In class!" title="Click to enlarge" height="300" width="300" /></a> <!--onclick calling Highslide script-->
+					<div class="caption">	
+						<p class="imageTitle">In class!</p>
+						<p class="description">Creative minds! :-)</p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-xs-12 col-sm-4 col-lg-3">
+				<div class="thumbnail"><a id="thumb1" href="img/img3.jpg" class="highslide" onclick="return hs.expand(this)"><img src="img/img3.jpg" alt="Having fun!"	title="Click to enlarge" height="300" width="300" /></a> <!--onclick calling Highslide script-->
+					<div class="caption">
+						<p class="imageTitle">Having fun!</p>
+						<p class="description">It's all about having fun</p>
+					</div>
+				</div>
+			</div>	
+			
+			<div class="col-xs-12 col-sm-4 col-lg-3">
+				<div class="thumbnail"><a id="thumb1" href="img/img4.jpg" class="highslide" onclick="return hs.expand(this)"><img src="img/img4.jpg" alt="Little Planet" title="Click to enlarge" height="300" width="300" /></a> <!--onclick calling Highslide script-->
+					<div class="caption">
+						<p class="imageTitle">Little Planet</p>
+						<p class="description">Just fooling around</p>
+					</div>
+				</div>
+			</div>	
+			
+			<div class="col-xs-12 col-sm-4 col-lg-3">
+				<div class="thumbnail"><a id="thumb1" href="img/img5.jpg" class="highslide" onclick="return hs.expand(this)"><img src="img/img5.jpg" alt="Large head!" title="Click to enlarge" height="300" width="300" /></a> <!--onclick calling Highslide script-->
+					<div class="caption">
+						<p class="imageTitle">Large head!</p>
+						<p class="description">Too many assignments</p>
+					</div>
+				</div>
+			</div>	
+
+			<div class="col-xs-12 col-sm-4 col-lg-3">
+				<div class="thumbnail"><a id="thumb1" href="img/img6.jpg" class="highslide" onclick="return hs.expand(this)"><img src="img/img6.jpg" alt="Underworld" title="Click to enlarge" height="300" width="300" /></a> <!--onclick calling Highslide script-->
+					<div class="caption">
+						<p class="imageTitle">Underworld</p>
+						<p class="description">I just want to get home!</p>
+					</div>	
+				</div>
+			</div>				
+		</div>
+	</section>
+	</body>
+</html>
